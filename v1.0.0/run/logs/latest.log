@@ -1,0 +1,61 @@
+[13:17:24] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21 with Fabric Loader 0.16.14
+[13:17:25] [main/WARN] (FabricLoader/Resolution) Mod resolution failed
+[13:17:25] [main/INFO] (FabricLoader/Resolution) Immediate reason: [HARD_DEP_INCOMPATIBLE_PRESELECTED cloth-config 18.0.145 {depends minecraft @ [>=1.21.4-]}, ROOT_FORCELOAD_SINGLE cloth-config 18.0.145]
+[13:17:25] [main/INFO] (FabricLoader/Resolution) Reason: [HARD_DEP cloth-config 18.0.145 {depends minecraft @ [>=1.21.4-]}, HARD_DEP only-time 1.0.0 {depends yet_another_config_lib_v3 @ [>=3.6.2]}]
+[13:17:25] [main/INFO] (FabricLoader/Resolution) Fix: add [], remove [], replace [[cloth-config 18.0.145] -> add:cloth-config 1 ([(-∞,∞)]), [yet_another_config_lib_v3 3.6.1+1.21-fabric] -> add:yet_another_config_lib_v3 3.6.2 ([[3.6.2,∞)])]
+[13:17:25] [main/ERROR] (FabricLoader) Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Replace mod 'Cloth Config v17' (cloth-config) 18.0.145 with any version that is compatible with:
+		 - minecraft 1.21
+	 - Replace mod 'YetAnotherConfigLib' (yet_another_config_lib_v3) 3.6.1+1.21-fabric with version 3.6.2 or later.
+More details:
+	 - Mod 'Cloth Config v17' (cloth-config) 18.0.145 requires version 1.21.4- or later of 'Minecraft' (minecraft), but only the wrong version is present: 1.21!
+	 - Mod 'Only Time!' (only-time) 1.0.0 requires version 3.6.2 or later of mod 'YetAnotherConfigLib' (yet_another_config_lib_v3), but only the wrong version is present: 3.6.1+1.21-fabric!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:196) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[13:17:25] [main/WARN] (FabricLoader) Failed to open the error gui!
+java.lang.reflect.InvocationTargetException: null
+	at java.desktop/java.awt.EventQueue.invokeAndWait(EventQueue.java:1371) ~[?:?]
+	at java.desktop/java.awt.EventQueue.invokeAndWait(EventQueue.java:1346) ~[?:?]
+	at java.desktop/javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1480) ~[?:?]
+	at net.fabricmc.loader.impl.gui.FabricMainWindow.open0(FabricMainWindow.java:94) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.gui.FabricMainWindow.open(FabricMainWindow.java:88) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.gui.FabricGuiEntry.open(FabricGuiEntry.java:51) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.gui.FabricGuiEntry.displayError(FabricGuiEntry.java:141) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.gui.FabricGuiEntry.displayError(FabricGuiEntry.java:108) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.FabricLauncherBase.handleFormattedException(FabricLauncherBase.java:86) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:76) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+Caused by: java.util.ServiceConfigurationError: javax.imageio.spi.ImageReaderSpi: Provider com.twelvemonkeys.imageio.plugins.webp.WebPImageReaderSpi not found
+	at java.base/java.util.ServiceLoader.fail(ServiceLoader.java:593) ~[?:?]
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.nextProviderClass(ServiceLoader.java:1219) ~[?:?]
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.hasNextService(ServiceLoader.java:1228) ~[?:?]
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.hasNext(ServiceLoader.java:1273) ~[?:?]
+	at java.base/java.util.ServiceLoader$2.hasNext(ServiceLoader.java:1309) ~[?:?]
+	at java.base/java.util.ServiceLoader$3.hasNext(ServiceLoader.java:1393) ~[?:?]
+	at java.desktop/javax.imageio.spi.IIORegistry.registerApplicationClasspathSpis(IIORegistry.java:179) ~[?:?]
+	at java.desktop/javax.imageio.spi.IIORegistry.<init>(IIORegistry.java:107) ~[?:?]
+	at java.desktop/javax.imageio.spi.IIORegistry.getDefaultInstance(IIORegistry.java:128) ~[?:?]
+	at java.desktop/javax.imageio.ImageIO.<clinit>(ImageIO.java:64) ~[?:?]
+	at net.fabricmc.loader.impl.gui.FabricMainWindow.loadImage(FabricMainWindow.java:225) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.gui.FabricMainWindow.createUi(FabricMainWindow.java:109) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.gui.FabricMainWindow.lambda$open0$0(FabricMainWindow.java:95) ~[fabric-loader-0.16.14.jar:?]
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:308) ~[?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742) ~[?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
