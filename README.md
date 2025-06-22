@@ -25,8 +25,7 @@ To toggle and disable.
 
 ## Demo
 
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6DqF8g93NOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![Demo](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
 
 ## Links
