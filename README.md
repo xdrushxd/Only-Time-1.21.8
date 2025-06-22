@@ -25,7 +25,7 @@ To toggle and disable.
 
 ## Demo
 
-[![Demo](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube-nocookie.com/embed/6DqF8g93NOQ)
+[![Demo](https://sandwichdev.xyz/img/Vid.png)](https://www.youtube-nocookie.com/embed/6DqF8g93NOQ)
 
 
 ## Links
