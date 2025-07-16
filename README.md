@@ -28,6 +28,13 @@ To toggle and disable.
 [![Demo](https://sandwichdev.xyz/img/vid2.png)](https://www.youtube-nocookie.com/embed/6DqF8g93NOQ)
 
 
+## Images
+
+![The Effect](https://cdn.modrinth.com/data/cached_images/9e783d030f78105ba3942b0725ce466fcb0a79e5.webp)
+![Daylight Config](https://cdn.modrinth.com/data/cached_images/d886e484250cd65fd6ab5fc4845887f6310b9be9.webp)
+![Day Config](https://cdn.modrinth.com/data/cached_images/c0cb92cc5adfb0ea32b4f3dee9e92c15447fda9c.webp)
+
+
 ## Links
 1. [My Website](https://sandwichdev.xyz/)
 
