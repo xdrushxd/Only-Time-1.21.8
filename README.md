@@ -10,8 +10,8 @@ To toggle and disable.
 
 
 ## Versions
-# 1.0.0 for 1.21-1.21.5
-# 1.0.2 Beta for 1.21-1.21.5
+### 1.0.0 for 1.21-1.21.5
+### 1.0.2 Beta for 1.21-1.21.5
 
 ## Features
 - Easly see time left.
