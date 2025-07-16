@@ -1,0 +1,21 @@
+[13:23:47] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.14
+[13:23:48] [main/INFO]: Loading 4 mods:
+	- fabricloader 0.16.14
+	   \-- mixinextras 0.4.1
+	- java 23
+	- minecraft 1.21
+[13:23:48] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Mihnea/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/22f9eb729e216a091673a574a5906dc1b9027fb3/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[13:23:50] [Datafixer Bootstrap/INFO]: 226 Datafixer optimizations took 539 milliseconds
+[13:23:52] [main/WARN]: Failed to get system info for GL Caps
+java.lang.IllegalStateException: Rendersystem called from wrong thread
+	at knot/com.mojang.blaze3d.systems.RenderSystem.constructThreadException(RenderSystem.java:140) ~[client-intermediary.jar:?]
+	at knot/com.mojang.blaze3d.systems.RenderSystem.assertOnRenderThread(RenderSystem.java:135) ~[client-intermediary.jar:?]
+	at knot/com.mojang.blaze3d.systems.RenderSystem.getCapsString(RenderSystem.java:527) ~[client-intermediary.jar:?]
+	at knot/net.minecraft.util.SystemDetails.addSection(SystemDetails.java:70) [client-intermediary.jar:?]
+	at knot/net.minecraft.client.MinecraftClient.addSystemDetailsToCrashReport(MinecraftClient.java:2547) [client-intermediary.jar:?]
+	at knot/net.minecraft.client.MinecraftClient.addSystemDetailsToCrashReport(MinecraftClient.java:2517) [client-intermediary.jar:?]
+	at knot/net.minecraft.client.main.Main.main(Main.java:210) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
