@@ -91,7 +91,6 @@ dependencies {
 - **Text Color System**: The text color customization is partially implemented but may not work as expected in all scenarios
 - **Position Persistence**: Some position settings may reset between game sessions
 - **Background Rendering**: Background display may have visual glitches in certain positions
-- **Multiplayer Compatibility**: Not fully tested in multiplayer environments
 
 ### 🔧 Technical Details
 - Built with Fabric API
