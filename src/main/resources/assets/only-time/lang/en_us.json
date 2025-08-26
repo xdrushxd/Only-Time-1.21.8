@@ -1,0 +1,20 @@
+{
+  "key.onlytime.toggle": "Toggle Only Time HUD",
+  "key.onlytime.config": "Open Only Time Settings",
+  "category.onlytime": "Only Time Mod",
+  "text.autoconfig.onlytime.title": "Only Time Settings",
+  "text.autoconfig.onlytime.option.daylightHudEnabled": "Enable Daylight HUD",
+  "text.autoconfig.onlytime.option.daylightHudPosition": "Daylight HUD Position (8 positions available)",
+  "text.autoconfig.onlytime.option.daylightHudOffsetX": "Daylight HUD X Offset (pixels)",
+  "text.autoconfig.onlytime.option.daylightHudOffsetY": "Daylight HUD Y Offset (pixels)",
+  "text.autoconfig.onlytime.option.daylightTextColor": "Daylight HUD Text Color",
+  "text.autoconfig.onlytime.option.showSeconds": "Show Seconds in Time Display",
+  "text.autoconfig.onlytime.option.dayCounterEnabled": "Enable Day Counter",
+  "text.autoconfig.onlytime.option.dayCounterPosition": "Day Counter Position (8 positions available)",
+  "text.autoconfig.onlytime.option.dayCounterOffsetX": "Day Counter X Offset (pixels)",
+  "text.autoconfig.onlytime.option.dayCounterOffsetY": "Day Counter Y Offset (pixels)",
+  "text.autoconfig.onlytime.option.dayCounterColor": "Day Counter Text Color",
+  "text.autoconfig.onlytime.option.showDebugInfo": "Show Debug Information",
+  "text.autoconfig.onlytime.option.hudScale": "HUD Scale (percentage)",
+  "text.autoconfig.onlytime.option.showBackground": "Show Background Behind Text"
+}

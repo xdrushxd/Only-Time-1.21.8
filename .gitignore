@@ -1,0 +1,52 @@
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Minecraft
+run/
+*.log
+crash-reports/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# JAR files (except the final mod jar)
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Temporary files
+*.tmp
+*.temp
